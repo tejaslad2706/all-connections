@@ -1,0 +1,41 @@
+{
+    "host": {
+      "doc": "database hostname",
+      "default": "localhost"
+    },
+    "port": {
+      "doc": "database port",
+      "format": "int",
+      "default": 27017
+    },
+    "hosts": ["localhost", "localhost", "localhost"],
+    "ports": [27017, 27017, 27017],
+    "replEnabled": {
+      "default": false
+    },
+    "replName": {
+      "default": "rs0"
+    },
+    "writeconcern": {
+      "doc": "the write concern for the connection",
+      "default": 1
+    },
+    "maxTimeMS": 5000,
+    "authEnabled": {
+      "default": false
+    },
+    "userName": {
+      "default": ""
+    },
+    "password": {
+      "default": ""
+    },
+    "authSource": {
+      "default": ""
+    },
+    "poolSize": {
+      "format": "int",
+      "default": 5
+    }
+  }
+  

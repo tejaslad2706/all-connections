@@ -1,0 +1,26 @@
+{
+  "name": "all-connections",
+  "version": "1.0.0",
+  "description": "The package provides connections to all the external databases and queing mechanisms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agenda/agenda.git"
+  },
+  "author": "Tejas Lad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agenda/agenda/issues"
+  },
+  "homepage": "https://github.com/agenda/agenda#readme",
+  "dependencies": {
+    "agenda": "^2.0.2",
+    "bluebird": "^3.5.5",
+    "convict": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.2.7"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "env": {
+    "doc": "The applicaton environment.",
+    "format": [
+      "prod",
+      "dev",
+      "test"
+    ],
+    "default": "dev",
+    "env": "NODE_ENV"
+  },
+  "configfile": {
+    "doc": "override config filename",
+    "format": "String",
+    "default": "/deployment.json",
+    "env": "CONFIG_FILE"
+  },
+  "cluster": {
+    "doc": "defines use of cluster",
+    "format": "Boolean",
+    "default": false
+  },
+  "workerCount": {
+    "doc": "number of workers in cluster",
+    "format": "int",
+    "default": 0
+  }
+}
